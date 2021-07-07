@@ -1,0 +1,17 @@
+
+img{
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+.botonS{
+    background-color: rgb(95, 85, 85);
+    color: rgb(255, 255, 255);
+    border-radius: 0;
+    margin-bottom: 2rem;
+}
+.botonS:hover {
+    color: rgb(131, 124, 124) !important;
+    text-decoration: none;
+}
