@@ -1,0 +1,18 @@
+.footerM{
+    background-color:#aa1034;
+    color: rgb(0, 0, 0);
+}
+.navM{
+    background-color: #aa1034;
+    color: cornsilk;
+}
+.botonM{
+    background-color: #a51f3e;
+}
+.botonM:hover{
+    background-color: #b63352;
+}
+.botonM:focus{
+    background-color: rgb(190, 186, 186);
+    color: rgb(0, 0, 0);
+}
