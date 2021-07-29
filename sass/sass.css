@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;700&display=swap");
 body {
-  font-family: 'Fira Sans', sans-serif;
-  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#cfd9df), to(#e2ebf0));
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
 .footer {
@@ -10,12 +10,13 @@ body {
   text-align: center;
   padding-top: 2em;
   padding-bottom: 1em;
-  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#cfd9df), to(#e2ebf0));
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
 .navM {
-  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
-  color: cornsilk;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#cfd9df), to(#e2ebf0));
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 }
 
 .navM .logo {
@@ -34,7 +35,8 @@ body {
 }
 
 .botonM {
-  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#cfd9df), to(#e2ebf0));
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   color: black;
 }
 
@@ -97,7 +99,7 @@ body {
 }
 
 .listaP {
-  margin: 3em;
+  margin: 2em;
   display: block;
   text-align: center;
   -webkit-box-shadow: 0px 23px 19px -8px rgba(4, 2, 10, 0.14);
@@ -107,6 +109,8 @@ body {
 .nosotros {
   text-align: center;
   padding: 2em;
+  -webkit-box-shadow: 0px 19px 21px -14px rgba(0, 0, 0, 0.47);
+  box-shadow: 0px 19px 21px -14px rgba(0, 0, 0, 0.47);
 }
 
 .nosotros h5 {
@@ -117,9 +121,15 @@ body {
   font-size: 1.5em;
 }
 
+.nosotros ul {
+  list-style: none;
+  text-align: center;
+}
+
 .nosotros2 {
   text-align: center;
   padding: 1.5em;
+  margin-top: 2em;
   font-size: 1.3em;
   -webkit-box-shadow: 0px 19px 21px -14px rgba(0, 0, 0, 0.47);
   box-shadow: 0px 19px 21px -14px rgba(0, 0, 0, 0.47);
@@ -128,6 +138,7 @@ body {
 .nosotros3 {
   text-align: center;
   padding: 1.5em;
+  margin-top: 3em;
   font-size: 1.3em;
 }
 
